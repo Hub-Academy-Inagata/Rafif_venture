@@ -17,6 +17,10 @@
     /* border: 2px solid black !important; */
 }
 
+/* .col {
+    border: 2px solid black !important;
+} */
+
 /* navbar */
 nav {
     background-color: #EFF4FE !important;
@@ -30,4 +34,98 @@ nav {
 
 .header-title > span {
     color: #0C75FF !important;
+}
+/* header end */
+
+/* intro */
+.intro-title > span {
+    color: #0C75FF !important;
+}
+
+.intro-btn {
+    border: 1px solid black !important;
+}
+/* intro end */
+
+/* analytics */
+.analytics-title > span {
+    color: #0C75FF !important;
+}
+.analytic-collapse-container {
+    border: 2px solid #0C75FF40 !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 24px 0px;
+}
+.accordion-button {
+    color : white !important;
+    background-color : #F4AE3B !important;
+    border-radius : 15px !important;
+    padding: 25px 20px !important;
+    font-weight : bold !important;
+}
+.collapsed {
+    color: black !important;
+    background-color : white !important;
+    font-weight : 500 !important;
+    padding-right: 35px !important;
+}
+.accordion-button::after {
+    background-image: url("/asset/image/index/arrow-right.svg") !important;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(0deg) !important;
+}
+  
+.accordion-button.collapsed::after {
+    background-image: url("/asset/image/index/arrow-right-1.svg") !important;
+}
+/* analytics end */
+
+/* data */
+.data-title > span {
+    color: #0C75FF !important;
+}
+/* data end */
+
+/* organize */
+.organize-title > span {
+    color: #0C75FF !important;
+}
+.card-title {
+    font-size: 22px !important;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 24px 0px;
+}
+/* organize end */
+
+/* decision */
+.decision-container {
+    background-color: #0C75FF !important;
+    padding-left: 7.5vw !important;
+    padding-right: 7.5vw !important;
+    border-radius: 30px !important;
+}
+.decision-title {
+    font-size: 3.4rem !important;
+}
+.decision-btn {
+    background-color: #F4AE3B !important;
+}
+/* decision end */
+
+/* try */
+.try-container {
+    background-color: #EBEBEB !important;
+}
+/* try end */
+
+/* footer */
+.footer-container {
+    color: #7C7C7C !important;
+    background-color: #1B1B1B !important;
+}
+.footer-link {
+    text-decoration: none !important;
+    color: #7C7C7C !important;
 }
